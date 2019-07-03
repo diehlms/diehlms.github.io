@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "css",
+			"path": "/Users/diehlsillers/Downloads/materialize/css"
+		},
+		{
+			"name": "js",
+			"path": "/Users/diehlsillers/Downloads/materialize/js"
+		},
+		{
+			"name": "diehlms.github.io",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "diehlms.github.io"
+	}
+}
