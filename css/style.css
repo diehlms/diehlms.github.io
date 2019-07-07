@@ -80,3 +80,19 @@ td {
     color: white;
     padding: 3px;
 }
+
+#projects {
+    margin: 0 auto;
+}
+
+.list-group-item {
+    border-bottom: 1px dotted grey;
+}
+
+.responsibility-header {
+    float: left;
+}
+
+.responsibility-header {
+    float: right;
+}
