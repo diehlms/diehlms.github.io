@@ -30,7 +30,50 @@ td {
     width: 25%;
 }
 
-.parallax-img {
-    width: 40px;
-    height: 40px;
+#navbar {
+    overflow: hidden;
+    background-color: black;
+    z-index: 999;
+}
+
+#navbar a  {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #500101;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .primary {
+    padding-top: 60px;
+}
+
+.card {
+    display: inline-block;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    height: 150px;
+    width: 100%;
+}
+
+.source-link {
+    float: right;
+}
+
+.site-link {
+    float: left;
 }

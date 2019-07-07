@@ -10,207 +10,255 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <h2>Diehl Sillers</h2>
-    <div class="container">
-        <div class="projects">
-            <h5 class="section-header">projects</h5>
-            <div class="row">
-                <a class="button twelve columns" href="https://nodra.herokuapp.com/" target="blank">Nodra</a>
-            </div>   
-            <div class="row">
-                <a class="button twelve columns" href="https://ironcityfishingclub.herokuapp.com/" target="blank">Iron City Fishing Club</a>
-            </div> 
+    <div class="title">
+        <h1 align="center">Diehl Sillers</h1>
+    </div>
+    <div id="navbar">
+        <a href="#projects">Projects</a>
+        <a href="#work">Work History</a>
+        <a href="#education">Education</a>
+    </div>
+    <section class="primary">
+        <div class="container" id="projects">
+            <h2 class="section-header">projects</h2>
+            <div class="project-cards">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/layout/nodra.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">NODRA</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Ruby on Rails</li>
+                        <li class="list-group-item">Heroku, AWS S3, Postgres</li>
+                        <li class="list-group-item">Bootstrap, ES6 Javascript</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://nodra.herokuapp.com/" class="site-link card-link">Site</a>
+                        <a href="https://github.com/diehlms/nodra" class="source-link card-link">Source Code</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/layout/nw.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Iron City</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Ruby on Rails</li>
+                        <li class="list-group-item">Heroku, AWS S3, Postgres</li>
+                        <li class="list-group-item">Bootstrap, ES6 Javascript</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://ironcityfishingclub.herokuapp.com/" class="site-link card-link">Site</a>
+                        <a href="https://github.com/diehlms/icfc" class="source-link card-link">Source Code</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/layout/nw.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Nathaniel Wolfe</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Ruby on Rails</li>
+                        <li class="list-group-item">Heroku, AWS S3, Postgres</li>
+                        <li class="list-group-item">Bootstrap, ES6 Javascript</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="http://www.nathanielwolfe.rocks/" class="site-link card-link">Site</a>
+                        <a href="https://github.com/diehlms/geoblog" class="source-link card-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="parallax-container">
-        <div class="parallax"><img src="assets/work/unnamed.jpg" class="parralax-img"></div>
-    </div>
-    <div class="container job">
-        <h5 class="section-header">work history</h5>
-        <table>
-            <thead>
-                <tr>
-                    <th>Position</th>
-                    <th>Company</th>
-                    <th>Dates</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>GIS Technician</td>
-                    <td>Apple, Inc</td>
-                    <td>February, 2019 - Present</td>
-                    <td>Austin, TX</td>
-                </tr>
-            </tbody>
-        </table>
-        <ul class="collapsible">
-            <li>
-                <div class="collapsible-header">Responsibilites:</div>
-                <div class="collapsible-body">
-                    <span>
-                        <ul>
-                            <li>Implemented multiple pilot projects focused on data integrity, quality assurance, and data validation.</li>
-                            <li>Responsible for digitizing and assembling new content from various sources, including databases, files/spreadsheets, and client resources.</li>
-                        </ul>
-                    </span>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="parallax-container">
-        <div class="parallax"><img src="assets/work/IMG_2084.jpg" class="parralax-img"></div>
-    </div>
-    <div class="container job">
-        <table>
-            <thead>
-                <tr>
-                    <th>Position</th>
-                    <th>Company</th>
-                    <th>Dates</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>                        <td>Resource Management Assistant</td>
-                    <td>National Park Service</td>                            
-                    <td>June, 2018 - December, 2018</td>
-                    <td>Southeast Arizona <em>(Coronado National Memorial, Chricahua National Monument, Fort Bowie National Historic Site)</em></td>
-                </tr>
-            </tbody>
-        </table>
-        <ul class="collapsible">
-            <li>
-                <div class="collapsible-header">Responsibilites:</div>
-                <div class="collapsible-body">
-                    <span>
-                        <ul>
-                            <li>Implemented the pilot Unstable Slope Management Program (USMP) to document over 300 risky roadside and trailside geologic hazards. Presented USMP work to American and Mexican conservationists at bi- national conference in Elgin, Arizona.</li>
-                            <li>Led field work teams to find, document, and analyze more than 60 abandoned mines with regards to polyurethane foam contamination, water quality, microclimate analysis, and environmental due diligence.</li>
-                            <li>Edited and helped author Cave and Mine Management report, USMP report, and numerous grant proposals within federal guidelines.</li>
-                            <li>Served as GIS point of contact for every park discipline, led field teams for research site delimitation,  maintained geodatabase administration, and developed SQL queries.</li>
-                        </ul>
-                    </span>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="parallax-container">
-        <div class="parallax"><img src="assets/work/DSC_0127.jpg" class="parralax-img"></div>
-    </div>
-    <div class="container job">
-        <table>
-            <thead>
-                <tr>
-                    <th>Position</th>
-                    <th>Company</th>
-                    <th>Dates</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Refuge Managment Intern</td>
-                    <td>U.S Fish & Wildlife Service</td>
-                    <td>June, 2017 - July, 2017</td>
-                    <td>Eufuala, AL</td>
-                </tr>
-            </tbody>
-        </table>
-        <ul class="collapsible">
-            <li>
-                <div class="collapsible-header">Responsibilites:</div>
-                <div class="collapsible-body">
-                    <span>
-                        <ul>
-                            <li>Managed invasive loblolly pine growth using brush saws, clearing more than 20 acres over the course of the summer in order to control growth.</li>
-                            <li>Took control of Refuge GIS in order to redesign visitor service maps and refuge resource facility maps.</li>
-                        </ul>
-                    </span>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="parallax-container">
-        <div class="parallax"><img src="assets/work/DSC_0311.jpg" class="parralax-img"></div>
-    </div>
-    <div class="container job">
-        <table>
-            <thead>
-                <tr>
-                    <th>Position</th>
-                    <th>Company</th>
-                    <th>Dates</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Bookkeeper</td>
-                    <td>Iron City Fishing Club</td>
-                    <td>June, 2016 - August, 2016</td>
-                    <td>Georgian Bay, ON</td>
-                </tr>
-            </tbody>
-        </table>
-        <ul class="collapsible">
-            <li>
-                <div class="collapsible-header">Responsibilites:</div>
-                <div class="collapsible-body">
-                    <span>
-                        <ul>
-                            <li>Implemented multiple pilot projects focused on data integrity, quality assurance, and data validation.</li>
-                            <li>Responsible for digitizing and assembling new content from various sources, including databases, files/spreadsheets, and client resources.</li>
-                        </ul>
-                    </span>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="parallax-container">
-        <div class="parallax"><img src="assets/work/DSC_0295.jpg" class="parralax-img"></div>
-    </div>
-    <div class="container job">
-        <table>
-            <thead>
-                <tr>
-                    <th>Position</th>
-                    <th>Company</th>
-                    <th>Dates</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Geology Intern</td>
-                    <td>AECOM</td>
-                    <td>June, 2015 - August, 2015</td>
-                    <td>Austin, TX</td>
-                </tr>
-            </tbody>
-        </table>
-        <ul class="collapsible">
+        <div class="container job" id="work">
+            <h2 class="section-header">work history</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Company</th>
+                        <th>Dates</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GIS Technician</td>
+                        <td>Apple, Inc</td>
+                        <td>February, 2019 - Present</td>
+                        <td>Austin, TX</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="collapsible">
                 <li>
                     <div class="collapsible-header">Responsibilites:</div>
                     <div class="collapsible-body">
                         <span>
                             <ul>
-                                <li>Responsible for helping edit Quarterly Groundwater Monitoring Reports and compiling chemical analyses according to Texas Commission on Environmental Quality standard operating procedures.</li>
-                                <li>Performed on-site groundwater remediation at Laughlin AFB, Del Rio TX, and HuMar Chemicals, Palacios TX. Managed low flow groundwater monitoring and analysis equipment.</li>
+                                <li>Implemented multiple pilot projects focused on data integrity, quality assurance, and data validation.</li>
+                                <li>Responsible for digitizing and assembling new content from various sources, including databases, files/spreadsheets, and client resources.</li>
                             </ul>
                         </span>
                     </div>
                 </li>
-        </ul>
-    </div>
-    <div class="container">
-        <div class="education">
-            <h5 class="section-header">education</h5>
-            <p>B.S Geology, GIS Minor, George Washington University</p>
-            <p>Graduated May, 2018</p>
+            </ul>
         </div>
-    </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="assets/work/IMG_2084.jpg" class="parralax-img"></div>
+        </div>
+        <div class="container job">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Company</th>
+                        <th>Dates</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>                        <td>Resource Management Assistant</td>
+                        <td>National Park Service</td>                            
+                        <td>June, 2018 - December, 2018</td>
+                        <td>Southeast Arizona <em>(Coronado National Memorial, Chricahua National Monument, Fort Bowie National Historic Site)</em></td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header">Responsibilites:</div>
+                    <div class="collapsible-body">
+                        <span>
+                            <ul>
+                                <li>Implemented the pilot Unstable Slope Management Program (USMP) to document over 300 risky roadside and trailside geologic hazards. Presented USMP work to American and Mexican conservationists at bi- national conference in Elgin, Arizona.</li>
+                                <li>Led field work teams to find, document, and analyze more than 60 abandoned mines with regards to polyurethane foam contamination, water quality, microclimate analysis, and environmental due diligence.</li>
+                                <li>Edited and helped author Cave and Mine Management report, USMP report, and numerous grant proposals within federal guidelines.</li>
+                                <li>Served as GIS point of contact for every park discipline, led field teams for research site delimitation,  maintained geodatabase administration, and developed SQL queries.</li>
+                            </ul>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="assets/work/DSC_0127.jpg" class="parralax-img"></div>
+        </div>
+        <div class="container job">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Company</th>
+                        <th>Dates</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Refuge Managment Intern</td>
+                        <td>U.S Fish & Wildlife Service</td>
+                        <td>June, 2017 - July, 2017</td>
+                        <td>Eufuala, AL</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header">Responsibilites:</div>
+                    <div class="collapsible-body">
+                        <span>
+                            <ul>
+                                <li>Managed invasive loblolly pine growth using brush saws, clearing more than 20 acres over the course of the summer in order to control growth.</li>
+                                <li>Took control of Refuge GIS in order to redesign visitor service maps and refuge resource facility maps.</li>
+                            </ul>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="assets/work/DSC_0311.jpg" class="parralax-img"></div>
+        </div>
+        <div class="container job">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Company</th>
+                        <th>Dates</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bookkeeper</td>
+                        <td>Iron City Fishing Club</td>
+                        <td>June, 2016 - August, 2016</td>
+                        <td>Georgian Bay, ON</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header">Responsibilites:</div>
+                    <div class="collapsible-body">
+                        <span>
+                            <ul>
+                                <li>Implemented multiple pilot projects focused on data integrity, quality assurance, and data validation.</li>
+                                <li>Responsible for digitizing and assembling new content from various sources, including databases, files/spreadsheets, and client resources.</li>
+                            </ul>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="assets/work/DSC_0295.jpg" class="parralax-img"></div>
+        </div>
+        <div class="container job">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Company</th>
+                        <th>Dates</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Geology Intern</td>
+                        <td>AECOM</td>
+                        <td>June, 2015 - August, 2015</td>
+                        <td>Austin, TX</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header">Responsibilites:</div>
+                        <div class="collapsible-body">
+                            <span>
+                                <ul>
+                                    <li>Responsible for helping edit Quarterly Groundwater Monitoring Reports and compiling chemical analyses according to Texas Commission on Environmental Quality standard operating procedures.</li>
+                                    <li>Performed on-site groundwater remediation at Laughlin AFB, Del Rio TX, and HuMar Chemicals, Palacios TX. Managed low flow groundwater monitoring and analysis equipment.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+        <div class="container" id="education">
+            <div class="education">
+                <h2 class="section-header">education</h2>
+                <p>B.S Geology, GIS Minor, George Washington University</p>
+                <p>Graduated May, 2018</p>
+            </div>
+        </div>
+    </section>
     <script src="js/script.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
