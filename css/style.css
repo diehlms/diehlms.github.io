@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 h2 {
@@ -52,6 +52,7 @@ td {
 }
 
 .card {
+    width: 18rem;
     display: inline-block;
     padding: 15px;
     margin: 0 auto;
@@ -71,9 +72,13 @@ td {
 }
 
 .title {
-    background-image: url("assets/layout/cave.jpg");
-    height: 100%;
+    background-image: url("../assets/layout/cave.jpg");
+    max-height: 200px;
+    width: 100%;
+    overflow: hidden;
+    color: white;
 }
+
 
 .footer-bottom {
     background-color: black;
@@ -95,4 +100,54 @@ td {
 
 .responsibility-header {
     float: right;
+}
+
+.subtitle {
+    margin-bottom: 15px;
+}
+
+.schoolword {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    color: black;
+}
+
+.btn.disabled {
+    margin-bottom: 10px;
+    color: black;
+}
+
+@media only screen and (max-device-width: 400px) {
+    .card {
+        width: 100%;
+    }
+
+    .card-img-top {
+        height: 500px;
+    }
+
+    .card-title {
+        font-size: 50px;
+    }
+
+    #navbar {
+        height: 100px;
+    }
+
+    body {
+        font-size: 40px;
+    }
+
+    td {
+        font-size: 24px;
+    }
+
+    .collection-item {
+        line-height: 1.5em;
+    }
+
+    .footer-bottom {
+        font-size: 20px;
+    }
 }
