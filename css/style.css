@@ -75,10 +75,12 @@ td {
 
 .title {
     background-image: url("../assets/layout/cave.jpg");
+    background-position: center bottom;
     width: 100%;
     overflow: hidden;
     color: white;
     margin: 0 auto;
+    height: 1000px;
 }
 
 .footer-bottom {
@@ -119,6 +121,12 @@ td {
     margin-bottom: 10px;
 }
 
+.navbar-lead {
+    color: white;
+    text-align: center;
+    display: none;
+}
+
 
 @media only screen and (max-device-width: 400px) {
     
@@ -143,9 +151,13 @@ td {
     }
 
     td {
-        font-size: 35px;
+        font-size: 30px;
     }
 
+    #navbar-lead {
+        padding: 15px;
+        height: 200px;
+    }
     .btn.disabled {
         height: 70px;
         color: black;
@@ -161,6 +173,11 @@ td {
         font-size: 30px;
     }
 
+    .collection-item {
+        font-size: 24px;
+        line-height: 100px;
+        margin-bottom: 15px;
+    }
     .primary {
         margin-bottom: 50px;
     }
