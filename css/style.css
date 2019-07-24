@@ -9,8 +9,10 @@ h1 {
 h2 {
     font-family: 'Rubik Mono One', sans-serif;
 }
+
 nav {
     z-index: 999;
+    border: 1px solid black
 }
 
 table {
@@ -73,12 +75,11 @@ td {
 
 .title {
     background-image: url("../assets/layout/cave.jpg");
-    max-height: 200px;
     width: 100%;
     overflow: hidden;
     color: white;
+    margin: 0 auto;
 }
-
 
 .footer-bottom {
     background-color: black;
@@ -114,11 +115,13 @@ td {
 }
 
 .btn.disabled {
+    overflow: hidden;
     margin-bottom: 10px;
-    color: black;
 }
 
+
 @media only screen and (max-device-width: 400px) {
+    
     .card {
         width: 100%;
     }
@@ -127,27 +130,42 @@ td {
         height: 500px;
     }
 
-    .card-title {
-        font-size: 50px;
+    body {
+        font-size: 43px;
     }
 
     #navbar {
         height: 100px;
     }
 
-    body {
-        font-size: 40px;
-    }
-
-    td {
-        font-size: 24px;
-    }
-
     .collection-item {
         line-height: 1.5em;
     }
 
-    .footer-bottom {
-        font-size: 20px;
+    td {
+        font-size: 35px;
+    }
+
+    .btn.disabled {
+        height: 70px;
+        color: black;
+        display: block;
+        padding: 15px;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .fa.fa-plus-circle.responsibility {
+        padding: 10px;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+
+    .primary {
+        margin-bottom: 50px;
+    }
+
+    .title {
+        height: 1200px;
     }
 }
