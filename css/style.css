@@ -146,18 +146,30 @@ td {
         height: 100px;
     }
 
-    .collection-item {
-        line-height: 1.5em;
-    }
-
     td {
         font-size: 30px;
+    }
+
+    .title {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title {
+        font-size: 100px;
+    }
+
+    #subtitle {
+        font-size: 65px;
     }
 
     #navbar-lead {
         padding: 15px;
         height: 200px;
     }
+
     .btn.disabled {
         height: 70px;
         color: black;
@@ -173,11 +185,14 @@ td {
         font-size: 30px;
     }
 
-    .collection-item {
-        font-size: 24px;
-        line-height: 100px;
-        margin-bottom: 15px;
+    .collection {
+        margin: 0px auto;
     }
+
+    .collection-item {
+       font-size: 24px;
+    }
+
     .primary {
         margin-bottom: 50px;
     }
