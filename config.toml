@@ -1,4 +1,4 @@
-baseurl = "diehlms.github.io"
+baseurl = "https://diehlms.github.io"
 title = "Diehl Sillers"
 author = "John Doe"
 paginate = 3
