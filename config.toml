@@ -3,6 +3,7 @@ title = "Diehl Sillers"
 author = "John Doe"
 paginate = 3
 theme = "arabica"
+publishDir = "diehlms.github.io"
 
 [params]
     description = "Geologist | Web Developer"

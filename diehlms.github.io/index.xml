@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diehl Sillers</title>
+    <link>https://diehlms.github.io/</link>
+    <description>Recent content on Diehl Sillers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 12 Aug 2019 18:11:33 -0500</lastBuildDate>
+    
+	<atom:link href="https://diehlms.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sample Post</title>
+      <link>https://diehlms.github.io/post/sample-post/</link>
+      <pubDate>Mon, 12 Aug 2019 18:11:33 -0500</pubDate>
+      
+      <guid>https://diehlms.github.io/post/sample-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget rutrum lorem. Aliquam ac feugiat tortor, porta faucibus arcu. Quisque congue lacus ante, non mattis odio consectetur suscipit. Proin tristique, orci id vestibulum sodales, massa odio fringilla erat, sed dictum erat elit ac tellus. Nam vel ligula ac mi maximus aliquam. Aliquam efficitur ligula at efficitur fringilla. Praesent in placerat quam. Sed dignissim commodo augue, eu congue nulla tempor a. Donec interdum velit a erat semper laoreet.</description>
+    </item>
+    
+    <item>
+      <title>education</title>
+      <link>https://diehlms.github.io/education/</link>
+      <pubDate>Sat, 27 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diehlms.github.io/education/</guid>
+      <description>George Washington University B.S Geology, GIS Minor | Graduated May, 2018
+Field work in Iceland (University of Iceland) and West Virginia
+Coarsework: Soil Science Current Crustal Movements Geophysics Geography of Iceland Civil &amp;amp; Environmental Engineering Chemistry (I &amp;amp; II) Physical Geology Historical Geology Oceanography Mineralogy Marine Geology Cartography &amp;amp; GIS Techniques of Spatial Analysis Igneous &amp;amp; Metamorphic Petrology Remote Sensing Structural Geology Sedimentology &amp;amp; Stratigraphy GIS II Digital Image Processing Hydrogeology Geological Field Methods</description>
+    </item>
+    
+    <item>
+      <title>experience</title>
+      <link>https://diehlms.github.io/experience/</link>
+      <pubDate>Sat, 27 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diehlms.github.io/experience/</guid>
+      <description>Apple, inc. via Apex GIS Technician
+Austin, Texas | February, 2019 - present
+ Implemented multiple pilot projects focused on data integrity, quality assurance, and data validation. Responsible for digitizing and assembling new content from various sources, including databases, files/spreadsheets, and client resources.   National Park Service Resource Management Assistant
+Southeast Arizona | June, 2018 - December, 2018
+ Implemented the pilot Unstable Slope Management Program (USMP) to document over 300 risky roadside and trailside geologic hazards.</description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>https://diehlms.github.io/projects/</link>
+      <pubDate>Sat, 27 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diehlms.github.io/projects/</guid>
+      <description>Iron City Fishing Club  Link Source Code Features: cabin reservation system, events calendar, blog, photo sharing system Technologies: Ruby/Ruby on Rails, postgres, leaflet.js, bootstrap, AWS S3 Status: development, live November 2019  NODRA  Link Source Code Features: results, contact list, blog, photo sharing system Technologies: Ruby/Ruby on Rails, postgres, bootstrap, AWS S3 Status: production  Nathaniel Wolfe  Link Source Code Features: music blog, geology blog Technologies: Ruby/Ruby on Rails, postgres, bootstrap Status: production</description>
+    </item>
+    
+  </channel>
+</rss>
