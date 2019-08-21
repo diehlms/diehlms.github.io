@@ -9,7 +9,7 @@ slug = "education"
 <p>B.S Geology, GIS Minor | Graduated May, 2018</p>
 <p><em>Field work in Iceland (University of Iceland) and West Virginia</em></p>
 
-<h4>Coarsework:</h4>
+<h4>Coursework:</h4>
 <div class="schoolwork">
     <a class="btn disabled">Soil Science</a>
     <a class="btn disabled">Current Crustal Movements</a>

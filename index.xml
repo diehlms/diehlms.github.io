@@ -5,18 +5,28 @@
     <link>https://diehlms.github.io/</link>
     <description>Recent content on Diehl Sillers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Aug 2019 18:11:33 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 17:40:56 -0500</lastBuildDate>
     
 	<atom:link href="https://diehlms.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Sample Post</title>
+      <title>Job Search</title>
+      <link>https://diehlms.github.io/post/job-search/</link>
+      <pubDate>Wed, 21 Aug 2019 17:40:56 -0500</pubDate>
+      
+      <guid>https://diehlms.github.io/post/job-search/</guid>
+      <description>Well folks, the job search has begun in earnest over the past few weeks. After I got back from Canada in early August, I promised myself I&#39;d get back on the horse and hit the job sites. So far a few nibbles from geology recruiters, but I&#39;ve yet to hear back from anyone in the tech world.
+I imagine it&#39;s tough to take chances on self-taught developers with such a huge pool of CS grads and Bootcamp grads running around, but developing has actually been a pretty rewarding experience regardless.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
       <link>https://diehlms.github.io/post/sample-post/</link>
       <pubDate>Mon, 12 Aug 2019 18:11:33 -0500</pubDate>
       
       <guid>https://diehlms.github.io/post/sample-post/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget rutrum lorem. Aliquam ac feugiat tortor, porta faucibus arcu. Quisque congue lacus ante, non mattis odio consectetur suscipit. Proin tristique, orci id vestibulum sodales, massa odio fringilla erat, sed dictum erat elit ac tellus. Nam vel ligula ac mi maximus aliquam. Aliquam efficitur ligula at efficitur fringilla. Praesent in placerat quam. Sed dignissim commodo augue, eu congue nulla tempor a. Donec interdum velit a erat semper laoreet.</description>
+      <description>Howdy. This is my personal blog. Obviously, there is not a surplus of content here, so come back later when I think of something to say if and when that happens. Otherwise, checkout my other projects or find my code on my Github link above.</description>
     </item>
     
     <item>
@@ -27,7 +37,7 @@
       <guid>https://diehlms.github.io/education/</guid>
       <description>George Washington University B.S Geology, GIS Minor | Graduated May, 2018
 Field work in Iceland (University of Iceland) and West Virginia
-Coarsework: Soil Science Current Crustal Movements Geophysics Geography of Iceland Civil &amp;amp; Environmental Engineering Chemistry (I &amp;amp; II) Physical Geology Historical Geology Oceanography Mineralogy Marine Geology Cartography &amp;amp; GIS Techniques of Spatial Analysis Igneous &amp;amp; Metamorphic Petrology Remote Sensing Structural Geology Sedimentology &amp;amp; Stratigraphy GIS II Digital Image Processing Hydrogeology Geological Field Methods</description>
+Coursework: Soil Science Current Crustal Movements Geophysics Geography of Iceland Civil &amp;amp; Environmental Engineering Chemistry (I &amp;amp; II) Physical Geology Historical Geology Oceanography Mineralogy Marine Geology Cartography &amp;amp; GIS Techniques of Spatial Analysis Igneous &amp;amp; Metamorphic Petrology Remote Sensing Structural Geology Sedimentology &amp;amp; Stratigraphy GIS II Digital Image Processing Hydrogeology Geological Field Methods</description>
     </item>
     
     <item>
