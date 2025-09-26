@@ -1,48 +1,33 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
+title: "Welcome"
 date: 2025-09-25 12:00:00 -0000
-categories: jekyll update
+categories: blog, pinned
 ---
 
-Welcome to your new Jekyll blog! This is your first post.
+# Welcome
 
-Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity.
+Since it's 2025 and AI is coming for all content hosted online, not to mention all our jobs, figured I better get a blog out there!
 
-## Getting Started
+<br>
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.md` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Dreams
 
-## Writing Posts
+These are just the dreams that I remember for long enough in the morning to jot down in my notepad.
 
-Jekyll uses Markdown for writing posts. Here are some examples:
+Expect there to be significant gaps between them.
 
-### Code Blocks
+All references to real people are entirely circumstantial.
 
-```python
-def hello_world():
-    print("Hello, World!")
-```
+<br>
 
-### Lists
+## Short stories to come
 
-- Item 1
-- Item 2
-- Item 3
+...<br>
 
-### Links and Images
+## Technical guides to come
 
-You can add [links](https://jekyllrb.com) and images easily in Markdown.
+...
 
-### Emphasis
-
-You can use *italic* and **bold** text.
-
-## Next Steps
-
-1. Customize the `_config.yml` file
-2. Modify the layout templates in `_layouts/`
-3. Write more posts in `_posts/`
-4. Push to GitHub and your site will be live!
-
-Happy blogging!
+<br>
+<br>

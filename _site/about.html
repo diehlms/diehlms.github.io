@@ -3,110 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Your Blog</title>
+    <title>About - Diehl Silers</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
+            line-height: 1.4;
+            color: #000;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            border-bottom: 1px solid #000;
+            padding: 10px 20px;
+            z-index: 100;
+        }
+
+        header h1 {
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        header h1 a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+            min-height: 0;
+        }
+
+        .sidebar {
+            width: 200px;
+            border-right: 1px dashed #000;
             padding: 20px;
             background-color: #fff;
         }
-        header {
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
+
+        .sidebar h3 {
+            font-size: 14px;
+            font-weight: normal;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .sidebar ul {
+            list-style: none;
             margin-bottom: 30px;
         }
-        header h1 {
-            margin: 0;
-            color: #2c3e50;
+
+        .sidebar li {
+            margin-bottom: 5px;
         }
-        header h1 a {
-            color: inherit;
+
+        .sidebar a {
+            color: #000;
             text-decoration: none;
+            font-size: 14px;
         }
-        nav {
-            margin-top: 10px;
-        }
-        nav a {
-            color: #3498db;
-            text-decoration: none;
-            margin-right: 20px;
-        }
-        nav a:hover {
+
+        .sidebar a:hover {
             text-decoration: underline;
         }
+
         main {
-            margin-bottom: 40px;
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
         }
+
         .post-meta {
             color: #666;
-            font-size: 0.9em;
+            font-size: 12px;
             margin-bottom: 20px;
         }
+
         .post-list {
             list-style: none;
-            padding: 0;
         }
+
         .post-list li {
-            margin-bottom: 30px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
         }
+
         .post-list h2 {
-            margin: 0 0 10px 0;
+            font-size: 16px;
+            font-weight: normal;
+            margin-bottom: 5px;
         }
+
         .post-list h2 a {
-            color: #2c3e50;
+            color: #000;
             text-decoration: none;
         }
+
         .post-list h2 a:hover {
-            color: #3498db;
+            text-decoration: underline;
         }
+
         footer {
-            border-top: 1px solid #eee;
-            padding-top: 20px;
+            position: sticky;
+            bottom: 0;
+            background-color: #fff;
+            border-top: 1px solid #000;
+            padding: 10px 20px;
             text-align: center;
+            font-size: 12px;
             color: #666;
-            font-size: 0.9em;
         }
-        code {
-            background-color: #f8f8f8;
-            padding: 2px 4px;
-            border-radius: 3px;
-            font-size: 0.9em;
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: normal;
         }
-        pre {
-            background-color: #f8f8f8;
-            padding: 15px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        pre code {
-            background: none;
-            padding: 0;
-        }
-        blockquote {
-            border-left: 4px solid #ddd;
-            margin: 20px 0;
-            padding-left: 20px;
-            color: #666;
+
+        a {
+            color: #000;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1><a href="/">Your Blog</a></h1>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-        </nav>
+        <h1><a href="/">Diehl Silers</a></h1>
     </header>
 
-    <main>
-        <h1 id="about-me">About Me</h1>
+    <div class="container">
+        <nav class="sidebar">
+            <h3>Dreams</h3>
+            <ul>
+                
+                
+                <li><a href="/dreams/2024/01/13/sisters.html">Sisters</a></li>
+                
+                <li><a href="/dreams/2024/01/13/rhino.html">Rhino</a></li>
+                
+                <li><a href="/dreams/2023/12/21/circus.html">Circus</a></li>
+                
+                <li><a href="/dreams/2023/12/18/car-crash.html">Car Crash</a></li>
+                
+                <li><a href="/dreams/2023/12/17/austin.html">Austin</a></li>
+                
+                <li><a href="/dreams/">View all dreams</a></li>
+            </ul>
+
+            <h3>Short Stories</h3>
+            <ul>
+                
+                
+                <li><a href="/stories/2025/09/25/tubzich.html">Tubzich</a></li>
+                
+                <li><a href="/stories/">View all stories</a></li>
+            </ul>
+
+            <h3>Blog</h3>
+            <ul>
+                
+                
+                <li><a href="/blog/">View all posts</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1 id="about-me">About Me</h1>
 
 <p>Welcome to my blog! This is where I share my thoughts, experiences, and insights.</p>
 
@@ -122,10 +196,11 @@
 
 <p>Feel free to explore and enjoy reading!</p>
 
-    </main>
+        </main>
+    </div>
 
     <footer>
-        <p>&copy; 2025 Your Blog. Built with Jekyll.</p>
+        <p>&copy; 2025 Diehl Silers</p>
     </footer>
 </body>
 </html>
