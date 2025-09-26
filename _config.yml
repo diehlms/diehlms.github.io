@@ -1,0 +1,22 @@
+# Site settings
+title: Your Blog
+email: your-email@example.com
+description: A simple blog
+url: "https://diehlms.github.io"
+github_username: diehlms
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

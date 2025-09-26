@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-25T17:15:39-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your Blog</title><subtitle>A simple blog</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2025/09/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-09-25T05:00:00-07:00</published><updated>2025-09-25T05:00:00-07:00</updated><id>http://localhost:4000/jekyll/update/2025/09/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/09/25/welcome-to-jekyll.html"><![CDATA[<p>Welcome to your new Jekyll blog! This is your first post.</p>
+
+<p>Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity.</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.md</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<h2 id="writing-posts">Writing Posts</h2>
+
+<p>Jekyll uses Markdown for writing posts. Here are some examples:</p>
+
+<h3 id="code-blocks">Code Blocks</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello, World!</span><span class="sh">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="lists">Lists</h3>
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+<h3 id="links-and-images">Links and Images</h3>
+
+<p>You can add <a href="https://jekyllrb.com">links</a> and images easily in Markdown.</p>
+
+<h3 id="emphasis">Emphasis</h3>
+
+<p>You can use <em>italic</em> and <strong>bold</strong> text.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<ol>
+  <li>Customize the <code class="language-plaintext highlighter-rouge">_config.yml</code> file</li>
+  <li>Modify the layout templates in <code class="language-plaintext highlighter-rouge">_layouts/</code></li>
+  <li>Write more posts in <code class="language-plaintext highlighter-rouge">_posts/</code></li>
+  <li>Push to GitHub and your site will be live!</li>
+</ol>
+
+<p>Happy blogging!</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Welcome to your new Jekyll blog! This is your first post.]]></summary></entry></feed>
