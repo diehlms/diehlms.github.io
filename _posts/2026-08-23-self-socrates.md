@@ -24,3 +24,5 @@ It bears fruit professionally as well, I might add. It's a mistake to assume the
 When I start asking myself questions, I am the only one who can answer. Searching for answers has become a theraputic exercise. Finding an answer is simply not that important. Finding the definitive answer is a fool's errand. Instead, asking myself why and how things are breaks me out of some assumption I thought was true.
 
 It's easy to see if you do the crossword, especially on harder days. Staring at the board invites the brain to assume some things just are and cements answers in place. When I place the crossword down and come back, I often see the answer I put down as a guess, sometimes good and sometimes bad. Coming back is a form of asking questions, I suppose.
+
+
