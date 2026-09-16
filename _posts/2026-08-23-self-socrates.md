@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Socrating Myself"
-date: 2027-08-27T14:46:53-06:00
+date: 2026-08-27T14:46:53-06:00
 categories: blog
 ---
 
